@@ -14,11 +14,17 @@ function isTriangle() {
     if (Number(inputs[0].value), Number(inputs[1].value), Number(inputs[2].value)) {
         if (sumOfAngles === 180) {
             outputEl.innerText = "Yeah! The angles form Triangle🍕"
+            outputEl.style.color ="pink"
+             outputEl.style.fontSize ="25px";
         } else {
             outputEl.innerText = "Ohh! The angles don't form Triangle😮"
+            outputEl.style.color ="pink"
+             outputEl.style.fontSize ="25px";
         }
     } else {
         outputEl.innerText = "Ohh No! Plz enter all the fields!!!"
+        outputEl.style.color ="pink"
+             outputEl.style.fontSize ="25px";
     }
 }
 

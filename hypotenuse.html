@@ -6,23 +6,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hypotenuse</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <header class="head">
     <nav>
-        <a href="./index.html">IsItTriangle?</a>
-        <a href="./quiz.html">Quiz</a>
-        <a href="./hypotenuse.html">Hypotenuse</a>
-        <a href="./areaOfTriangle.html">Area Of Triangle</a>
+        <a class= "link" href="./index.html">IsItTriangle?</a>
+        <a class= "link" href="./quiz.html">Quiz</a>
+        <a class= "link" href="./hypotenuse.html">Hypotenuse</a>
+        <a class= "link" href="./areaOfTriangle.html">Area Of Triangle</a>
     </nav>
+    </header>
 
     <h1>Calculate Hypotenuse</h1>
+    <div class="container">
     <label>a= </label>
     <input type="number" class="side-input">
+    <br>
     <label>b=</label>
     <input type="number" class="side-input">
+    <br>
     <button id="hypotenuse-btn">Calculate Hypotenuse</button>
+    <br>
     <div id="output"></div>
+    </div>
 
 
 </body>

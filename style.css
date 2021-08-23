@@ -1,0 +1,121 @@
+*{
+    font-family:'Righteous', cursive ;
+    background-color: black;
+    color: white;
+}
+/* General styling for all pages */
+.head{
+    margin: 20px;
+    padding: 25px;
+    background-color: rgb(63, 44, 30);
+    border-radius: 5px;
+}
+.link{
+ padding: 10px ;
+ margin: 10px;
+ text-decoration: none;
+ background-color: rgb(63, 44, 30);
+ 
+}
+nav{
+    background-color: rgb(63, 44, 30);
+}
+.link:hover{
+    color: rgb(126, 126, 223);
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+}
+
+/*Page wise styling from here */
+
+.container{
+    text-align: center;
+    padding: 50px;
+}
+label{
+    font-size: 20px;
+   
+  }
+input{
+    padding: 8px;
+    border-color: violet;
+     color: white;
+     font-size: 20px;
+     margin: 26px;
+  }
+  input:hover{
+    border-color: #2E76CF;
+  }
+  
+
+
+h1{
+    text-align: center;
+    padding: 2px;
+    margin: 3px;
+    color: blueviolet;
+}
+h3{
+    color: rgb(230, 211, 165);
+}
+
+/* All Check button  */
+#is-triangle-btn{
+    padding: 10px 50px;
+    margin: 8px 97px;
+    border-radius: 15px  ;
+  
+    background:#2E76CF;
+    
+    font-size: larger;
+}
+#is-triangle-btn:hover{
+    cursor: pointer;
+    border-color: greenyellow ;
+    background:#173b67;
+}
+#check-area-btn{
+    padding: 10px 50px;
+    margin: 8px 97px;
+    border-radius: 15px  ;
+  
+    background:#2E76CF;
+    
+    font-size: larger;
+}
+#check-area-btn:hover{
+    cursor: pointer;
+    border-color: greenyellow ;
+    background:#173b67;
+}
+#submit-answer-btn{
+    padding: 10px 50px;
+    margin: 8px 97px;
+    border-radius: 15px  ;
+  
+    background:#2E76CF;
+    
+    font-size: larger;
+
+}
+#submit-answer-btn:hover{
+    cursor: pointer;
+    border-color: greenyellow ;
+    background:#173b67;
+}
+#hypotenuse-btn{
+    padding: 10px 50px;
+    margin: 8px 97px;
+    border-radius: 15px  ;
+  
+    background:#2E76CF;
+    
+    font-size: larger;
+
+}
+#hypotenuse-btn:hover{
+    cursor: pointer;
+    border-color: greenyellow ;
+    background:#173b67;
+
+}

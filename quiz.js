@@ -16,6 +16,8 @@ function calculateScore(){
      }
     //  console.log(score)
     outputEl.innerText ="Your final score is " + score;
+    outputEl.style.color ="pink"
+             outputEl.style.fontSize ="25px";
 }
 
 
