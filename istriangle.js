@@ -23,7 +23,7 @@ function isTriangle() {
         }
     } else {
         outputEl.innerText = "Ohh No! Plz enter all the fields!!!"
-        outputEl.style.color ="pink"
+        outputEl.style.color ="red"
              outputEl.style.fontSize ="25px";
     }
 }
