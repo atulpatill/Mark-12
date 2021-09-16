@@ -11,7 +11,7 @@ function calculateSumOfAngles(angle1, angle2, angle3) {
 
 function isTriangle() {
     const sumOfAngles = calculateSumOfAngles(Number(inputs[0].value), Number(inputs[1].value), Number(inputs[2].value))
-    if (Number(inputs[0].value), Number(inputs[1].value), Number(inputs[2].value)) {
+    if (Number(inputs[0].value) !==0 &  Number(inputs[1].value) !==0 & Number(inputs[2].value )!==0) {
         if (sumOfAngles === 180) {
             outputEl.innerText = "Yeah! The angles form Triangle🍕"
             outputEl.style.color ="pink"
