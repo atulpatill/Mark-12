@@ -12,12 +12,18 @@ function calculateSumOfSquare(a, b) {
 
 
 function calculateHypotenuse() {
+  if(Number(sides[0].value) !==0 & Number(sides[1].value) !==0){
   const sumOfSquare = calculateSumOfSquare(Number(sides[0].value), Number(sides[1].value))
   const lengthOfHypotenuse = Math.sqrt(sumOfSquare)
   //   console.log(lengthOfHypotenuse)
   outputEl.innerText = "The Length of Hypotenuse is " + lengthOfHypotenuse.toFixed(2);
   outputEl.style.color = "pink"
   outputEl.style.fontSize = "25px";
+}else{
+  outputEl.innerText = "Plz enter all fields"
+  outputEl.style.color = "red"
+  outputEl.style.fontSize = "25px";
+}
 }
 
 
