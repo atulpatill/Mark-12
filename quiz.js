@@ -4,7 +4,9 @@ const outputEl = document.querySelector("#output");
 
 const correctAnswer = ["90°","right angled","one right angle", "12, 16, 20", "Equilateral triangle", "100", "30"]
 
-function calculateScore(){
+
+function calculateScore(e){
+    e.preventDefault(); 
      let score =0;
      let i=0;
      const formResults = new FormData(quizForm);
@@ -17,8 +19,10 @@ function calculateScore(){
     //  console.log(score)
     outputEl.innerText ="Your final score is " + score;
     outputEl.style.color ="pink"
-             outputEl.style.fontSize ="25px";
+    outputEl.style.fontSize ="25px";
+    
+    window.scrollTo(0,document.body.scrollHeight);
 }
 
 
-submitAnswerBtn.addEventListener("click", calculateScore)
+quizForm.addEventListener("submit", calculateScore)
